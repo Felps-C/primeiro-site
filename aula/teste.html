@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang = "pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Meu primeiro JS</title>
+    </head>
+    <body>
+        <script>
+            let a, b, c, delta,x1,x2;
+            a = parseFloat(prompt("Digite o A da equação: "));
+            b = parseFloat(prompt("Digite o B da equação: "));
+            c = parseFloat(prompt("Digite o C da equação: "));
+
+            delta = Math.pow(b,2) - (4*a*c);
+            x1 = ((-b) + Math.sqrt(delta)) / (2*a);
+            x2 = ((-b) - Math.sqrt(delta)) / (2*a);
+            console.log("Valor de A", a);
+            console.log("Valor de b", b);
+            console.log("Valor de c", c);
+            console.log("Valor de Delta", delta);
+            console.log("Valor de x1", x1);
+            console.log("Valor de x1", x2);
+        </script>
+    </body>
+</html>
